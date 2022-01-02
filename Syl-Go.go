@@ -16,7 +16,7 @@ type USER struct {
 
 
 func sly(UserId string) (*USER, error) {
-	resp, err := http.Get(fmt.Sprintf("https://sylviorus.up.railway.app/user/%v", UserId))
+	resp, err := http.Get(fmt.Sprintf("https://sylviorus-api.up.railway.app/user/%v", UserId))
 	if err != nil {
 		return nil, err
 	}
