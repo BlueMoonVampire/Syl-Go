@@ -1,3 +1,3 @@
-module github.com/MoeZilla/Syl-Go
+module github.com/Sylviorus/Syl-Go
 
 go 1.17
