@@ -1,4 +1,4 @@
-package Syl-Go
+package Vanitas-Go
 
 import (
 	"encoding/json"
@@ -15,8 +15,8 @@ type USER struct {
 }
 
 
-func sly(UserId string) (*USER, error) {
-	resp, err := http.Get(fmt.Sprintf("https://sylviorus-api.up.railway.app/user/%v", UserId))
+func vanitas(UserId string) (*USER, error) {
+	resp, err := http.Get(fmt.Sprintf("https://vanitas-api.up.railway.app/user/%v", UserId))
 	if err != nil {
 		return nil, err
 	}
