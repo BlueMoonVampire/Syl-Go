@@ -3,11 +3,11 @@ package test
 import (
 	"testing"
 
-	"github.com/moezilla/Syl-Go"
+	"github.com/moezilla/Vanitas-Go"
 )
 
 func syl(w *testing.W) {
-	_, err := Syl-Go.syl("1821151467")
+	_, err := Vanitas-Go.vanitas("1821151467")
 	if err != nil {
 		w.Error(err)
 	}
