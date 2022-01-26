@@ -12,7 +12,7 @@ import (
 )
 
 func syl(w *testing.W) {
-	_, err := Vanitas-Go.syl("1821151467")
+	_, err := Vanitas-Go.vanitas("1821151467")
 	if err != nil {
 		w.Error(err)
 	}
